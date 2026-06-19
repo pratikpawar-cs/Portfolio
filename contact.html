@@ -1,51 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Contact</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <meta name="description" content="Contact Pratik Pawar, Frontend Developer and Computer Engineering student.">
+    <meta name="keywords" content="Contact, Pratik Pawar, Portfolio, Frontend Developer, Web Developer">
+    <meta name="author" content="Pratik Pawar">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>Contact Me</h1>
-</header>
+    <header role="banner">
+        <h2 class="logo">Pratik.dev</h2>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<nav>
-<a href="index.html" class="btn">Home</a>
-<a href="about.html" class="btn">About</a>
-<a href="contact.html" class="btn">Contact</a>
-<a href="projects.html" class="btn">projects</a>
+    <!-- Contact -->
 
-
-</nav>
-
-<section class="container">
-
-<h2>Contact Information</h2>
-
-<p>Email : pratik@email.com</p>
-<p>Phone : ******2528</p>
-
-<h2>Send Message</h2>
-
-<form class="contact-form">
-
-<input type="text" placeholder="Your Name">
-
-<input type="email" placeholder="Your Email">
-
-<textarea placeholder="Your Message"></textarea>
-
-<button type="submit" class="main-btn">Send Message</button>
-
-</form>
-
-</section>
-
-<footer>
-<p>© 2026 Pratik Pawar</p>
-</footer>
+    <main>
+        <section class="contact-page">
+            <h1>Contact Me</h1>
+            <form aria-label="Contact form" autocomplete="on">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Enter Name" required>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter Email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/pratikpawar-cs/Portfolio" target="_blank" aria-label="GitHub"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="icon-social"> GitHub</a>
+                <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="icon-social"> LinkedIn</a>
+        </section>
+    </main>
 
 </body>
+
 </html>
