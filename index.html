@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Pratik Pawar | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Pawar | Portfolio</title>
+    <meta name="description" content="Portfolio of Pratik Pawar, Frontend Developer and Computer Engineering student.">
+    <meta name="keywords" content="Pratik Pawar, Portfolio, Frontend Developer, Web Developer, Projects">
+    <meta name="author" content="Pratik Pawar">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-<h1>Pratik Pawar</h1>
-<p>Student | Python Learner | Web Developer</p>
-</header>
+    <!-- Header -->
 
-<nav>
-<a href="index.html" class="btn">Home</a>
-<a href="about.html" class="btn">About</a>
-<a href="contact.html" class="btn">Contact</a>
-<a href="projects.html" class="btn">projects</a>
+    <header role="banner">
+        <h2 class="logo">Pratik.dev</h2>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
 
-</nav>
-
-<section class="container">
-
-<h2>Welcome to My Portfolio</h2>
-
-<p>
-Hello! I am <b>Pratik Pawar</b>, a student passionate about programming,
-web development and technology.
-</p>
-
-</section>
-
-<footer>
-<p>© 2026 Pratik Pawar</p>
-</footer>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hello, I'm <span>Pratik</span></h1>
+                <h3>Frontend Developer</h3>
+                <p>
+                    Passionate Computer Engineering student focused on
+                    Web Development and Creative Technologies.
+                </p>
+                <a href="contact.html" class="cta-btn" aria-label="Contact Me">
+                    Contact Me
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.png" alt="Profile picture of Pratik Pawar" style="width:280px; border-radius:50%; border:5px solid #38bdf8; box-shadow:0 4px 24px 0 rgba(56,189,248,0.10); object-fit:cover;">
+            </div>
+        </section>
+    </main>
 
 </body>
+
 </html>
